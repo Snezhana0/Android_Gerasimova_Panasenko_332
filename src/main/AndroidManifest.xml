@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Teacher_dj"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".faculty.FacultyListActivity"
+            android:label="Факультеты"/>
+        <activity
+            android:name=".faculty.FacultyPagerActivity"
+            android:label="Факультеты"
+            android:parentActivityName=".faculty.FacultyListActivity" />
+        <activity
+            android:name=".faculty.FacultyAddActivity"
+            android:label="Факультеты"
+            android:parentActivityName=".faculty.FacultyListActivity" />
+
+        <activity
+            android:name=".post.PostListActivity"
+            android:label="Должности" />
+        <activity
+            android:name=".post.PostPagerActivity"
+            android:label="Должности"
+            android:parentActivityName=".post.PostListActivity" />
+        <activity
+            android:name=".post.PostAddActivity"
+            android:label="Должности"
+            android:parentActivityName=".post.PostListActivity" />
+
+        <activity
+            android:name=".teacher.TeacherListActivity"
+            android:label="Преподаватели" />
+        <activity
+            android:name=".teacher.TeacherPagerActivity"
+            android:label="Преподаватели"
+            android:parentActivityName=".teacher.TeacherListActivity" />
+        <activity
+            android:name=".teacher.TeacherAddActivity"
+            android:label="Преподаватели"
+            android:parentActivityName=".teacher.TeacherListActivity" />
+
+        <activity
+            android:name=".chair.ChairListActivity"
+            android:label="Кафедра" />
+        <activity
+            android:name=".chair.ChairPagerActivity"
+            android:label="Кафедра"
+            android:parentActivityName=".chair.ChairListActivity" />
+        <activity
+            android:name=".chair.ChairAddActivity"
+            android:label="Кафедра"
+            android:parentActivityName=".chair.ChairListActivity" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="TeacherDB"
+            android:theme="@style/Theme.Teacher_dj.NoActionBar"
+
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

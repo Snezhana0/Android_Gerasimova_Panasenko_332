@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Teacher_dj</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="Delete_string">Удалить</string>
+    <string name="Update_string">Редактировать</string>
+    <string name="Add_string">Добавить</string>
+    <string name="teacherdb">TeacherDB</string>
+</resources>

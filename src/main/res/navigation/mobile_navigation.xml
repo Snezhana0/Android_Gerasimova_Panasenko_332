@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_teacher">
+
+    <fragment
+        android:id="@+id/nav_teacher"
+        android:name="ru.rsue.gerasimova.teachers_android.teacher.TeacherListFragment"
+        android:label="Преподаватели"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/nav_chair"
+        android:name="ru.rsue.gerasimova.teachers_android.chair.ChairListFragment"
+        android:label="Кафедры"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/nav_post"
+        android:name="ru.rsue.gerasimova.teachers_android.post.PostListFragment"
+        android:label="Должности"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/nav_faculty"
+        android:name="ru.rsue.gerasimova.teachers_android.faculty.FacultyListFragment"
+        android:label="Факультеты"
+        tools:layout="@layout/fragment_list" />
+
+</navigation>

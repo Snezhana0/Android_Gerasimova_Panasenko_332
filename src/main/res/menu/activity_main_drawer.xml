@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_teacher"
+        android:icon="@drawable/inc_teacher"
+        android:title="Преподаватели" />
+    <item
+        android:id="@+id/nav_chair"
+        android:icon="@drawable/inc_chair"
+        android:title="Кафедра" />
+    <item
+        android:id="@+id/nav_post"
+        android:icon="@drawable/inc_post"
+        android:title="Должности" />
+    <item
+        android:id="@+id/nav_faculty"
+        android:icon="@drawable/inc_post"
+        android:title="Факультеты" />
+
+<!--    <group android:checkableBehavior="single">-->
+<!--        <item-->
+<!--            android:id="@+id/nav_teacher"-->
+<!--            android:icon="@drawable/inc_teacher"-->
+<!--            android:title="Преподаватели" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_chair"-->
+<!--            android:icon="@drawable/inc_chair"-->
+<!--            android:title="Кафедра" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_post"-->
+<!--            android:icon="@drawable/inc_post"-->
+<!--            android:title="Должности" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_faculty"-->
+<!--            android:icon="@drawable/inc_post"-->
+<!--            android:title="Факультеты" />-->
+<!--    </group>-->
+
+</menu>
